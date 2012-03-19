@@ -1,20 +1,79 @@
-.circle {
-	margin: 55px auto 0 auto;
+html {
+	background: url('../images/bg.jpg') repeat #fff;
+	
+	color: #ca5600;
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 0.85em;
+}
+
+body {
+	margin: 40px auto;
+	padding: 2em;
+	width: 500px;
+	
+	background-color: #fff;
+	
+	border: 3px solid #F90;
+	border-radius: 200px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	
+	box-shadow: 5px 5px #F90;
+}
+
+label {
+
+	padding: 3px;
+}
+
+#circle {
+	margin: 30px auto 0px auto;
 	padding: 0;
 
 	width: 300px;
 	height: 300px;
 	
+	color: #F90;	
 	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
-	font-size: 210px;
+	font-size: 235px;
 	text-align: center;
-	vertical-align: middle;
 	
-	background-color: #FCC;
-	border: 10px solid #F99;
+	background-color: #FC3;
+	border: 15px solid #F90;
 	border-radius: 200px;
 	-webkit-border-radius: 200px;
 	-moz-border-radius: 200px;
 	-o-border-radius: 200px;
 	-ms-border-radius: 200px;
+}
+
+input, select, button {
+	padding: 3px;
+	
+	background-color: #ca5600;
+	border: none;
+	
+	color: #F90;	
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.property-div, .type-colour-div, .submit-buttons-div {
+	display: block; 
+	
+	margin-top: 10px;
+	padding: 10px;
+	
+	background-color: #F90;
+}
+
+.submit-buttons-div {
+ 	text-align: right;
+}
+
+.type-colour-div {
+ 	text-align: center;
 }

@@ -8,19 +8,24 @@
 <body>
 
 	<form id="circle-form">
-		<label for="property">Select A Property:</label>
+		<div class="property-div">
+			<label for="property">Select A Property:</label>
 			<select id="property">
 				<option value="border-color">Border Colour</option>
 				<option value="background-color">Background Colour</option>
 				<option value="color">Font Colour</option>
 			</select>
-		
+		</div>
+			
+		<div class="type-colour-div">
 		<label for="color">Type A Colour:</label>
 		<input type="color" id="colour">
+		</div>
 		
+		<div class="submit-buttons-div">
 		<button type="submit" id="submit">Apply To Circle</button>
-		
 		<button id="hideshow">Hide / Show</button>
+		</div>
 	</form>
 	
 	<div id="circle">★</div>
