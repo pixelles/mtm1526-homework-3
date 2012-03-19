@@ -1,0 +1,20 @@
+.circle {
+	margin: 55px auto 0 auto;
+	padding: 0;
+
+	width: 300px;
+	height: 300px;
+	
+	font-family: "Trebuchet MS", Calibri, Arial, sans-serif;
+	font-size: 210px;
+	text-align: center;
+	vertical-align: middle;
+	
+	background-color: #FCC;
+	border: 10px solid #F99;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	-o-border-radius: 200px;
+	-ms-border-radius: 200px;
+}
