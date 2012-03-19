@@ -12,4 +12,9 @@ $(document).ready(function () {
 		$circle.css($property.val(), colour);
 		}
 	});	
+	
+	$('#hideshow').on('click', function (ev) {
+		$('#circle').toggle('fast');
+		ev.preventDefault();
+	});
 });
